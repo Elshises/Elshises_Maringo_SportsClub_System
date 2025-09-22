@@ -31,14 +31,14 @@ public class TerminalClass extends JFrame implements ActionListener{
     
     public TerminalClass(){
         
-        ImageIcon icon = new ImageIcon("Images\\sterling-ph.png");
-        ImageIcon icon2 = new ImageIcon("Images\\sala-ph.png");
-        ImageIcon icon3 = new ImageIcon("Images\\images (1)-ph.png");
-        ImageIcon icon4 = new ImageIcon("\\Images\\haaland-ph.png");
-        ImageIcon icon5 = new ImageIcon("Images\\mylabel.png");
-        ImageIcon icon6 = new ImageIcon("Images\\kip-ph.png");
-        ImageIcon icon7 = new ImageIcon("Images\\saika-ph.png");
-        ImageIcon icon8 = new ImageIcon("Images\\games2-ph.png");
+        ImageIcon icon = new ImageIcon("sterling.png");
+        ImageIcon icon2 = new ImageIcon("sala.png");
+        ImageIcon icon3 = new ImageIcon("/Images/images (1)-ph.png");
+        ImageIcon icon4 = new ImageIcon("/Images/haaland.png");
+        ImageIcon icon5 = new ImageIcon("/Images/mylabel.png");
+        ImageIcon icon6 = new ImageIcon("/Images/kipyegon.png");
+        ImageIcon icon7 = new ImageIcon("/Images/saka.png");
+        ImageIcon icon8 = new ImageIcon("/Images/games.png");
         
         
         sterling_label = new JLabel();
@@ -50,7 +50,7 @@ public class TerminalClass extends JFrame implements ActionListener{
         shacslabel = new JLabel();
         shacslabel.setBounds(420,500, 250, 250);
         shacslabel.setBackground(Color.red);
-       shacslabel.setIcon(icon4);
+        shacslabel.setIcon(icon4);
         
         omanyalabel = new JLabel();
         omanyalabel.setBounds(680,520,250,250);
@@ -63,7 +63,7 @@ public class TerminalClass extends JFrame implements ActionListener{
         mylabel.setIcon(icon5);
         
         
-        JLabel kiplabel= new JLabel();
+        JLabel kiplabel = new JLabel();
         kiplabel.setBounds(1100,500,300,250);
         kiplabel.setBackground(Color.red);
         kiplabel.setIcon(icon6);
@@ -81,8 +81,8 @@ public class TerminalClass extends JFrame implements ActionListener{
         
         
         
-        maringolabel = new JLabel("MARINGO SPORTS CLUB SYSTEM");
-        maringolabel.setBounds(400, 70, 550, 100);
+        maringolabel = new JLabel("OKOA GEN-Z  SPORTS CLUB SYSTEM");
+        maringolabel.setBounds(350, 70, 700, 100);
         maringolabel.setFont(new Font("Algerian",Font.BOLD,35));
         maringolabel.setForeground(Color.yellow);
         
